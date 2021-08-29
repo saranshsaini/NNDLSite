@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <h1>NNDL Recognition</h1>
+    <div class="container">
+      <div class="canvasdiv">
+        <h2>Canvas</h2>
+        <canvas id="canvas" class="canvas" width=128 height=72>
+      </div>
+      <div class="output">
+        <h2>Output</h2>
+        <button class="button" onclick="getData()">Get Data</button>
+        <button class="button" onclick="putData()">Put Data</button>
+        <button class="button" onclick="testGet()">Test Get</button>
+        <button class="button" onclick="testRect()">Rect</button>
+        <button class="button" onclick="testTF()">test tf</button>
+        
+      </div>
+    </div>
+
+    <script src="canvas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  background-color: #ffeead;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2%;
+}
+
+.container {
+  margin-top: 3%;
+  border: 2px solid #ffcc5c;
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.container > div {
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.canvasdiv {
+  border: 2px solid #ffcc5c;
+  flex: 2;
+  background-color: #96ceb4;
+}
+.output {
+  border: 2px solid #ffcc5c;
+  flex: 1;
+  background-color: #ff6f69;
+}
+.button {
+  margin-top:70%;
+}
+.canvas {
+  margin-top: -20px;
+  width: 392px;
+  height: 392px;
+  border: 5px solid red;
+  background-color: white;
+  
+}
